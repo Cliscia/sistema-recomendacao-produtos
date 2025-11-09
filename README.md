@@ -17,6 +17,7 @@ Duas modalidades:
 4. **Retorno**: top-N recomendações com ID, Produto, Categoria, Preço e Avaliação.
 
 ## Uso (exemplos de código)
+
 ```python
 # similares a um produto
 res1 = recomendar("Airfryer")
@@ -24,8 +25,8 @@ mostrar_recomendacao_clean(res1, "Recomendações — similares a: Airfryer")
 
 # por intenção do usuário
 res2 = recomendar_por_descricao("quero presente útil para quem gosta de cozinhar")
-mostrar_recomendacao_clean(res2, "Recomendações — intenção: presente útil para quem cozinha")```
-
+mostrar_recomendacao_clean(res2, "Recomendações — intenção: presente útil para quem cozinha")
+```
 
 
 
